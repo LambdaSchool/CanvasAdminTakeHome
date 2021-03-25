@@ -1,0 +1,57 @@
+uuid,objective_uuid,module,objective,question_text,use_question,correct_answer,wrong_answer_1,wrong_answer_2,wrong_answer_3
+85d8000d-1fda-4b0b-ad5b-73cb317da797,bd5cd111-8d94-42e8-b5b2-3ef0d359d431,Module 3 - Intro CSS,,"In this example, the text in the grandchild class would be what color?
+```html
+<div class="parent">
+  <div class="child">
+    <div class="grandchild">Hello!</div>
+  </div>  
+</div>
+```
+```css
+.parent {
+   color: black;
+   font-size: 12px;
+   border: 1px solid black;
+   padding: 20px;
+}
+.child {
+   color: red;
+   font-size: 16px;
+   margin: 20px;
+}
+.grandchild {
+   width: 400px;
+   height: 100px;
+   background: gray;
+}
+```",TRUE,red,black,gray,undefined
+46d94f10-a2cb-4f3d-b1ff-93882796f3a1,bd5cd111-8d94-42e8-b5b2-3ef0d359d431,Module 1 - User Interface,,Which of the following is not considered an accesible HTML tag? ,TRUE,`<span>`,`<h1>`,`<button>`,`<table>`
+672b0545-a1a4-47cb-b8c9-6d96fc82b53a,bd5cd111-8d94-42e8-b5b2-3ef0d359d431,Module 4 - CSS Layouts,,  `flex-direction: row;` would result in which of the following layouts? ,FALSE,,,,
+1c8c4c72-8029-49f2-874d-94d14273ac38,bd5cd111-8d94-42e8-b5b2-3ef0d359d431,Module 3 - Intro CSS,,Which of the following is the most specific? ,TRUE,!important,class,* ,id
+ee2e19aa-3534-4a70-bd85-dc85ffd51bc7,bd5cd111-8d94-42e8-b5b2-3ef0d359d431,Module 2 - Git for Web Development,,Which of the following represents the correct order of the lambda git flow? ,TRUE,"```bash
+git add .
+git commit -m ""message""
+git push -u origin ""branch name""
+```","```bash
+git commit -m ""message""
+git add .
+git push -u origin ""branch name""
+```","```bash
+git add .
+git push -u origin ""branch name""
+git commit -m ""message""
+```","```bash
+git push -u origin ""branch name""
+git add .
+git commit -m ""message""
+```"
+240a1ac8-44c8-4d34-829c-f8df7f54d6be,bd5cd111-8d94-42e8-b5b2-3ef0d359d431,Module 2 - Git for Web Development,,The git command to record changes to the local repository is,TRUE,commit,pull,push,fork
+0b505c23-2f5a-458f-b0f5-5a28e0914666,bd5cd111-8d94-42e8-b5b2-3ef0d359d431,Module 2 - Git for Web Development,,"The git command to create a new branch with the name `featureX`",TRUE,`checkout -b featureX`,`checkout -bb featureX`,`branch -b featureX`,`branch <featureX>`
+e7ecdbd6-160a-4b74-b284-57e518de58c2,bd5cd111-8d94-42e8-b5b2-3ef0d359d431,Module 1 - User Interface,,"Which tag would make this code more semantic?
+
+```html
+<div>
+  <h1>Some Title</h1>
+  <p>fljvhodkvksjdvpkjfdpvkpfkdj</p>
+</div>
+ ```",TRUE,`<section>`,`<main>`,`<body>`,`<span>`

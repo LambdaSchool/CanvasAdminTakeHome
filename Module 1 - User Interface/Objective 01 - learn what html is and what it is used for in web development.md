@@ -10,12 +10,12 @@ HTML was created as a language when the first visual web browsers came into exis
 
 #### What is a markup language?
 
-Every webpage is essentially just plain text. If you type the sentence "Lambda school is awesome" in an HTML file, you can open it in your web browser and even deploy it to the web. Of course, we know that web pages are much more nuanced than that, and that is thanks to HTML elements.
+Every webpage is essentially just plain text. If you type the sentence "BloomTech is awesome" in an HTML file, you can open it in your web browser and even deploy it to the web. Of course, we know that web pages are much more nuanced than that, and that is thanks to HTML elements.
 
-We can think of elements as being boxes of content on our web page. Different types of content will be contained in different boxes depending on their importance. For example, "Lambda school is awesome" might be a `header` element, with a list of reasons why as a `p` (paragraph) element. When you box the text above in a `header` (or `h1`) element, it looks something like this.
+We can think of elements as being boxes of content on our web page. Different types of content will be contained in different boxes depending on their importance. For example, "BloomTech is awesome" might be a `header` element, with a list of reasons why as a `p` (paragraph) element. When you box the text above in a `header` (or `h1`) element, it looks something like this.
 
 ```html
-<h1> Lambda School is Awesome </h1>
+<h1> BloomTech is Awesome </h1>
 ```
 
 We use certain elements for headers, other elements for images, and still other elements for text. We will be focusing on four different display elements today: division elements (divs), headers, paragraphs, and spans.
@@ -27,7 +27,7 @@ We will be writing our HTML code in a sandbox environment called CodePen. CodePe
 Go ahead and edit the code below to make your webpage display any sentence you'd like.
 
 <iframe height="265" style="width: 100%;" scrolling="no" title="PreCourse" src="https://codepen.io/lambdaschool/embed/f3c5f02c778ef23285f134f2f31369cb?height=265&theme-id=light&default-tab=html,result&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/lambdaschool/pen/f3c5f02c778ef23285f134f2f31369cb'>PreCourse</a> by Lambda School
+  See the Pen <a href='https://codepen.io/lambdaschool/pen/f3c5f02c778ef23285f134f2f31369cb'>PreCourse</a> by BloomTech
   (<a href='https://codepen.io/lambdaschool'>@lambdaschool</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
@@ -85,7 +85,7 @@ We will be focusing today on four types of display elements. Now that we underst
   * You should only use one `<h1>` per page. Using more than one will not result in an error, but using only one is seen as a best practice. It makes logical sense — `<h1>` is the most important heading, and tells you what the purpose of the overall page is. You wouldn't have a book with more than one title, or a movie with more than one name! Having a single top-level title is also arguably better for screen reader users, and SEO.
 
 <iframe height="265" style="width: 100%;" scrolling="no" title="PreCourse tag levels" src="https://codepen.io/lambdaschool/embed/19c92b335519fea1c509f759c4d14696?height=265&theme-id=light&default-tab=html,result&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/lambdaschool/pen/19c92b335519fea1c509f759c4d14696'>PreCourse tag levels</a> by Lambda School
+  See the Pen <a href='https://codepen.io/lambdaschool/pen/19c92b335519fea1c509f759c4d14696'>PreCourse tag levels</a> by BloomTech
   (<a href='https://codepen.io/lambdaschool'>@lambdaschool</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
@@ -139,18 +139,18 @@ When learning HTML, it can be useful to investigate existing web pages. There is
 
 ## Follow Along
 
-Let's practice marking up text in the pen below. For the next few lessons, we're going to focus on building a replica of an old version of Lambdaschool.com's home page. Please note that changes you make to inline pens will not 'save', to fork and save your own copy of this pen, click the logo in the right corner to open it in a new tab.
+Let's practice marking up text in the pen below. For the next few lessons, we're going to focus on building a replica of an old version of bloomtech.com's home page. Please note that changes you make to inline pens will not 'save', to fork and save your own copy of this pen, click the logo in the right corner to open it in a new tab.
 
 First, let's take a look at Lambda's old homepage: 
 
 ![lambda real website](https://i.imgur.com/ZWSo5vE.gif)
 
 <iframe height="265" style="width: 100%;" scrolling="no" title="M2O1 - HTML tags" src="https://codepen.io/lambdaschool/embed/961cd3dbdd87725892b6d6415f547925?height=265&theme-id=light&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/lambdaschool/pen/961cd3dbdd87725892b6d6415f547925'>M2O1 - HTML tags</a> by Lambda School
+  See the Pen <a href='https://codepen.io/lambdaschool/pen/961cd3dbdd87725892b6d6415f547925'>M2O1 - HTML tags</a> by BloomTech
   (<a href='https://codepen.io/lambdaschool'>@lambdaschool</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
-The first thing we want to do with our plain text is incorporate HTML elements to identify exactly what different components do. Looking at the real lambdaschool.com we can see that some text is large, some is small, and some is encased in a button. Together, lets add the proper tags in the codepen above. To start, we'll add a `<h1>` heading around "Lambda School" in `<h1>` header and `</h1>` closing tags.
+The first thing we want to do with our plain text is incorporate HTML elements to identify exactly what different components do. Looking at the real bloomtech.com we can see that some text is large, some is small, and some is encased in a button. Together, lets add the proper tags in the codepen above. To start, we'll add a `<h1>` heading around "BloomTech" in `<h1>` header and `</h1>` closing tags.
 
 ```html
 <h1> Your new tech career starts here </h1>
@@ -174,7 +174,7 @@ Finally, let's wrap the two "big" chunks of text in `<p>` tags.
 <button>Apply to Lambda</button>
 ```
 
-Our final product should look something like this. Not quite the same as [lambdaschool.com](lambdaschool.com) yet, but we're on our way!
+Our final product should look something like this. Not quite the same as [bloomtech.com](bloomtech.com) yet, but we're on our way!
 
 ![Screen Shot 2020-01-16 at 4.28.21 PM](https://i.imgur.com/FJ21qOt.png)
 

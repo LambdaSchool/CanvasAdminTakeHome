@@ -21,7 +21,7 @@ To this point we've learned the terms element, tag, and attribute. While those c
   * The 'a' ("anchor") element, allows us to create links to other web pages (or even to other areas within our own web page). You will always see the 'a' element used with the `href` attribute to tell the browser what address you want the link to point to.
 
 ```html
-  <a href="http://www.lambdaschool.com">Here is a link!</a>
+  <a href="http://www.bloomtech.com">Here is a link!</a>
 ```
 
 * `<img>`
@@ -36,7 +36,7 @@ To this point we've learned the terms element, tag, and attribute. While those c
   * This stands for `list item` and is the companion to `<ul>` and `<ol>`. These elements represent the items to appear in the list. Any other elements can appear in an `li`.
 
 <iframe height="265" style="width: 100%;" scrolling="no" title="PreCourse tags" src="https://codepen.io/lambdaschool/embed/39f0bcce5f5149bc0524a13bb1767bf3?height=265&theme-id=default&default-tab=html,result&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/lambdaschool/pen/39f0bcce5f5149bc0524a13bb1767bf3'>PreCourse tags</a> by Lambda School
+  See the Pen <a href='https://codepen.io/lambdaschool/pen/39f0bcce5f5149bc0524a13bb1767bf3'>PreCourse tags</a> by BloomTech
   (<a href='https://codepen.io/lambdaschool'>@lambdaschool</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
@@ -49,22 +49,22 @@ We've seen in previous examples that we can nest, or level, elements inside of t
 ## Follow Along
 
 <iframe height="451" style="width: 100%;" scrolling="no" title="M2O2 - Attributes" src="https://codepen.io/lambdaschool/embed/5d24a9de4455e40d4a5dc5c628812326?height=451&theme-id=default&default-tab=html,result&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/lambdaschool/pen/5d24a9de4455e40d4a5dc5c628812326'>M2O2 - Attributes</a> by Lambda School
+  See the Pen <a href='https://codepen.io/lambdaschool/pen/5d24a9de4455e40d4a5dc5c628812326'>M2O2 - Attributes</a> by BloomTech
   (<a href='https://codepen.io/lambdaschool'>@lambdaschool</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
 With our newfound knowledge of attributes we can add in the image, and make our "Apply to Lambda" button functional.
 
-First, let's add the image with an `<img>` tag. The Lambda School homepage image lives at the following URL: `https://assets-global.website-files.com/5cd091cfb5499f22bdf72905/5d1133da829994859a190d12_website-home4.jpg`. We'll use the `src` attribute to add this to our page. Note that `img` elements don't need a closing tag. Also, notice that this URL is **not** "lambdaschool.com," even though that's where we see the picture. Instead, the URL points to the location where the image is hosted on the cloud. Following this link will lead to *just* our background photo.
+First, let's add the image with an `<img>` tag. The BloomTech homepage image lives at the following URL: `https://assets-global.website-files.com/5cd091cfb5499f22bdf72905/5d1133da829994859a190d12_website-home4.jpg`. We'll use the `src` attribute to add this to our page. Note that `img` elements don't need a closing tag. Also, notice that this URL is **not** "bloomtech.com," even though that's where we see the picture. Instead, the URL points to the location where the image is hosted on the cloud. Following this link will lead to *just* our background photo.
 
 ```html
 <img src = "https://assets-global.website-files.com/5cd091cfb5499f22bdf72905/5d1133da829994859a190d12_website-home4.jpg">
 ```
 
-We can also use attributes to make our "Apply to Lambda." button functional. To do so, we'll need to use the attribute `href`, and point it to Lambda School's application page: `https://apply.lambdaschool.com/apply/`. If we were building the whole website from scratch, we'd reference another html file the our folder.
+We can also use attributes to make our "Apply to Lambda." button functional. To do so, we'll need to use the attribute `href`, and point it to BloomTech's application page: `https://apply.bloomtech.com/apply/`. If we were building the whole website from scratch, we'd reference another html file the our folder.
 
 ```html
-<button onclick = "location.href='https://apply.lambdaschool.com/apply/';"> Apply to Lambda.</button>
+<button onclick = "location.href='https://apply.bloomtech.com/apply/';"> Apply to Lambda.</button>
 ```
 
 Right now, the image is huge and that's okay. In the next lesson, we'll learn about CSS and start to style things how we want them to look.

@@ -37,7 +37,7 @@ There are two ways of including CSS in our HTML.
 Note that, in codepen, linking is done "under the hood", so we can code our CSS straight in the CSS pannel like so.
 
 <iframe height="265" style="width: 100%;" scrolling="no" title="PreCourse Style" src="https://codepen.io/lambdaschool/embed/4918a680ea2327cb02fc888270483aa0?height=265&theme-id=default&default-tab=html,result&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/lambdaschool/pen/4918a680ea2327cb02fc888270483aa0'>PreCourse Style</a> by Lambda School
+  See the Pen <a href='https://codepen.io/lambdaschool/pen/4918a680ea2327cb02fc888270483aa0'>PreCourse Style</a> by BloomTech
   (<a href='https://codepen.io/lambdaschool'>@lambdaschool</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
@@ -50,7 +50,7 @@ You may notice in the pen above that the CSS references a specific tag, in this 
 You can select all elements of a certain type - `p`, `div`, `h1`, or `body`; or you can select all elements with a certain `class` or `id`. By adding a `class` or `id` attribute to an element, we then make it possible for the CSS to select that element more easily and accurately. Compare the HTML tags to the CSS selectors below and see if you can figure out the rules governing CSS selectors.
 
 <iframe height="352" style="width: 100%;" scrolling="no" title="PreCourse Style w divs" src="https://codepen.io/lambdaschool/embed/061349c6b346983da14bdba6939809a8?height=352&theme-id=default&default-tab=html,result&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/lambdaschool/pen/061349c6b346983da14bdba6939809a8'>PreCourse Style w divs</a> by Lambda School
+  See the Pen <a href='https://codepen.io/lambdaschool/pen/061349c6b346983da14bdba6939809a8'>PreCourse Style w divs</a> by BloomTech
   (<a href='https://codepen.io/lambdaschool'>@lambdaschool</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
@@ -107,10 +107,10 @@ body {
 
 ## Follow Along
 
-When we added the image to lambdaschool.com it created a _massive_ problem (no pun intended). Together let's add some CSS style to get our image to the background, and to change text color and style.
+When we added the image to bloomtech.com it created a _massive_ problem (no pun intended). Together let's add some CSS style to get our image to the background, and to change text color and style.
 
 <iframe height="402" style="width: 100%;" scrolling="no" title="M3O1 - CSS " src="https://codepen.io/lambdaschool/embed/52b9e575871e7ebb68d0e7a42dd20422?height=402&theme-id=default&default-tab=html,result&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/lambdaschool/pen/52b9e575871e7ebb68d0e7a42dd20422'>M3O1 - CSS </a> by Lambda School
+  See the Pen <a href='https://codepen.io/lambdaschool/pen/52b9e575871e7ebb68d0e7a42dd20422'>M3O1 - CSS </a> by BloomTech
   (<a href='https://codepen.io/lambdaschool'>@lambdaschool</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
@@ -148,7 +148,7 @@ Finally, we can move our image from the "body" to the div and start getting a mo
 }
 ```
 
-Our final product should look like this. It is looking a lot closer to lambdaschool.com, but...squished? Next up, we'll learn about the box model which will help take care of the squishing and get us to a more believable lambdaschool replica.
+Our final product should look like this. It is looking a lot closer to bloomtech.com, but...squished? Next up, we'll learn about the box model which will help take care of the squishing and get us to a more believable lambdaschool replica.
 
 ![Screen Shot 2020-01-16 at 4.48.44 PM](https://i.imgur.com/hMywz6G.png)
 
